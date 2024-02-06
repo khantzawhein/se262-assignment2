@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <audio src="./sounds/blue.mp3" id="blue-sound"></audio>
+  <audio src="./sounds/green.mp3" id="green-sound"></audio>
+  <audio src="./sounds/red.mp3" id="red-sound"></audio>
+  <audio src="./sounds/yellow.mp3" id="yellow-sound"></audio>
+  <audio src="./sounds/wrong.mp3" id="wrong-sound"></audio>
+
+  <h1 id="level-title">Press s Key to Start</h1>
+  <div class="container" id="button-container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="./game.js"></script>
+</body>
+
+</html>

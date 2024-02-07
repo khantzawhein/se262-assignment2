@@ -20,7 +20,7 @@ document
     });
 
 document.addEventListener("keydown", (e) => {
-    if (e.key === "s") {
+    if (e.key === "s" && isFirstTime) {
         isFirstTime = false;
         startGame();
     }
